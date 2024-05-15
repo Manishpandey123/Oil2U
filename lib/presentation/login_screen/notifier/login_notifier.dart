@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:equatable/equatable.dart';
-import 'package:money_mgmt/core/network/logger.dart';
+import 'package:oil2u/core/network/logger.dart';
 import '../../../core/app_export.dart';
 import '../../../core/network/api_s.dart';
 import '../../../core/network/apis.dart';
