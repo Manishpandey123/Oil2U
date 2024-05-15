@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
-import 'package:money_mgmt/presentation/invoices_page_one_screen/notifier/invoices_page_one_notifier.dart';
+import 'package:oil2u/presentation/invoices_page_one_screen/notifier/invoices_page_one_notifier.dart';
 
 import '../../core/app_export.dart';
 import 'package:flutter/material.dart';

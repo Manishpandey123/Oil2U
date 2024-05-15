@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:money_mgmt/core/network/api_s.dart';
+import 'package:oil2u/core/network/api_s.dart';
 import '../../../core/app_export.dart';
 import 'package:equatable/equatable.dart';
 import '../../../core/network/apis.dart';
