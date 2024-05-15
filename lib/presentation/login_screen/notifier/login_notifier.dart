@@ -48,7 +48,7 @@ class LoginNotifier extends StateNotifier<LoginState> {
   bool isFormValidated() => state.formKey.currentState!.validate();
 
   /// signin api integration
-  Future<void> onSingIn(BuildContext context) async {
+  Future<void> onLogin(BuildContext context) async {
     NavigatorService.pushNamed(
       AppRoutes.dashboardPage,
     );
