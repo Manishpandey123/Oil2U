@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:money_mgmt/config.dart';
-import 'package:money_mgmt/core/app_export.dart';
-import 'package:money_mgmt/core/network/api_s.dart';
-import 'package:money_mgmt/core/network/logger.dart';
+import 'package:oil2u/config.dart';
+import 'package:oil2u/core/app_export.dart';
+import 'package:oil2u/core/network/api_s.dart';
+import 'package:oil2u/core/network/logger.dart';
 
 class DioAuthInterceptors extends Interceptor {
   @override
