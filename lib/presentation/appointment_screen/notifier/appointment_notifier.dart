@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:equatable/equatable.dart';
-import 'package:money_mgmt/core/app_export.dart';
-import 'package:money_mgmt/presentation/appointment_screen/models/appointment_models.dart';
+import 'package:oil2u/core/app_export.dart';
+import 'package:oil2u/presentation/appointment_screen/models/appointment_models.dart';
 part 'appointment_state.dart';
 
 final appointmentNotifier =
