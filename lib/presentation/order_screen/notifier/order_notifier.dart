@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
-import 'package:money_mgmt/core/network/logger.dart';
+import 'package:oil2u/core/network/logger.dart';
 
 import '../../../core/network/api_s.dart';
 import '../../../core/network/apis.dart';
