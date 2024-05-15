@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:money_mgmt/core/utils/flash_message.dart';
+import 'package:oil2u/core/utils/flash_message.dart';
 import '../../../core/app_export.dart';
 import 'package:equatable/equatable.dart';
 import '../../../core/network/api_s.dart';
