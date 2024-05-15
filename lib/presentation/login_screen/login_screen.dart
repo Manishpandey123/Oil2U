@@ -140,7 +140,7 @@ class LoginScreenState extends ConsumerState<LoginScreen> {
                                 onPressed: () {
                                   ref
                                       .read(loginNotifier.notifier)
-                                      .onSingIn(context);
+                                      .onLogin(context);
                                 },
                               ),
                               SizedBox(height: 31.v),
@@ -174,13 +174,6 @@ class LoginScreenState extends ConsumerState<LoginScreen> {
           ),
         ),
       ),
-    );
-  }
-
-  /// Navigates to the loginScreen when the action is triggered.
-  onTapLogin() {
-    NavigatorService.pushNamed(
-      AppRoutes.dashboardPage,
     );
   }
 }
