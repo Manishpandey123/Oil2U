@@ -4,10 +4,10 @@ import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:money_mgmt/core/network/api_s.dart';
-import 'package:money_mgmt/core/network/logger.dart';
-import 'package:money_mgmt/core/utils/flash_message.dart';
-import 'package:money_mgmt/widgets/custom_text_form_field.dart';
+import 'package:oil2u/core/network/api_s.dart';
+import 'package:oil2u/core/network/logger.dart';
+import 'package:oil2u/core/utils/flash_message.dart';
+import 'package:oil2u/widgets/custom_text_form_field.dart';
 
 import '../../core/app_export.dart';
 
