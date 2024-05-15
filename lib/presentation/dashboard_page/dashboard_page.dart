@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:money_mgmt/core/utils/navigator_service.dart';
-import 'package:money_mgmt/widgets/custom_bottom_bar.dart';
+import 'package:oil2u/core/utils/navigator_service.dart';
+import 'package:oil2u/widgets/custom_bottom_bar.dart';
 
 import '../../core/app_export.dart';
 import 'models/gridordertext_item_model.dart';
