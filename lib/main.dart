@@ -1,6 +1,6 @@
-import 'package:money_mgmt/core/network/apis.dart';
-import 'package:money_mgmt/core/network/logger.dart';
-import 'package:money_mgmt/presentation/login_screen/notifier/login_notifier.dart';
+import 'package:oil2u/core/network/apis.dart';
+import 'package:oil2u/core/network/logger.dart';
+import 'package:oil2u/presentation/login_screen/notifier/login_notifier.dart';
 
 import 'core/app_export.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +32,7 @@ class MyApp extends ConsumerWidget {
       builder: (context, orientation, deviceType) {
         return MaterialApp(
           theme: theme,
-          title: 'money_mgmt',
+          title: 'oil2u',
           navigatorKey: NavigatorService.navigatorKey,
           debugShowCheckedModeBanner: false,
           localizationsDelegates: [
